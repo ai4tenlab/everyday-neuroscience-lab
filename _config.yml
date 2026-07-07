@@ -1,0 +1,23 @@
+title: "Everyday Neuroscience Lab"
+description: "부모·교사·학습자를 위한 공익형 뇌과학 지식 블로그"
+url: "https://ai4tenlab.github.io"
+baseurl: "/everyday-neuroscience-lab"
+lang: ko-KR
+timezone: Asia/Seoul
+author: "Everyday Neuroscience Lab"
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Everyday Neuroscience Lab"
+      category: "Neuroscience Literacy"
