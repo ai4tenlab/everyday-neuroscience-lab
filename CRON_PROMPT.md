@@ -57,6 +57,13 @@
    - `git add .`
    - `git commit -m "feat: publish neuroscience post YYYY-MM-DD"`
    - `git push origin main`
-11. GitHub Pages URL을 확인하고, 발행 URL과 선정 이유를 한국어로 간결히 보고한다.
+11. GitHub Pages URL을 확인한다.
+12. 새 글을 실제로 발행한 경우에만 Resend 이메일 알림을 보낸다. 중복 발행 방지로 검증만 한 날은 이메일을 보내지 않는다.
+   - UTF-8 안전 발송 스크립트 사용:
+     `python3 /root/hermes-utils/send_pages_publish_email.py --site "Everyday Neuroscience Lab" --post "_posts/YYYY-MM-DD-slug.md" --url "https://ai4tenlab.github.io/everyday-neuroscience-lab/.../"`
+   - 수신자 기본값: `ai4tenlab@gmail.com`
+   - `RESEND_API_KEY`가 없으면 스크립트가 `EMAIL_SKIPPED`를 출력하므로, 발행은 성공으로 보고하되 이메일 미발송 사유를 명시한다.
+   - 이메일에는 발행 제목, 본문 요약, URL이 포함되어야 한다.
+13. 발행 URL, 선정 이유, 이메일 발송 결과(`EMAIL_SENT`/`EMAIL_SKIPPED`/오류)를 한국어로 간결히 보고한다.
 
 중요: 사실을 만들지 말 것. 출처 접근이 실패하면 접근 가능한 신뢰 출처로 대체하고, 실패 사실을 보고한다.
