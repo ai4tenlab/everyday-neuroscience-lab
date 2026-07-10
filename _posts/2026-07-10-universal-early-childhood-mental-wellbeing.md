@@ -7,6 +7,8 @@ author: "Everyday Neuroscience Lab"
 description: "Psychological Bulletin 2026년 메타분석을 바탕으로 0~6세 보편적 정신건강 개입의 효과와 한계를 부모·교사·학습자 관점에서 쉽게 정리합니다."
 source_url: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42423711&retmode=xml"
 permalink: /2026/07/10/universal-early-childhood-mental-wellbeing/
+image: "/assets/images/thumbnails/2026-07-10-universal-early-childhood-mental-wellbeing.png"
+image_alt: "아이 마음 건강과 보편적 정신건강 개입 블로그 썸네일"
 ---
 
 ## 3줄 요약
