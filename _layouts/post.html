@@ -8,6 +8,11 @@ layout: default
     {% if page.description %}<p class="description">{{ page.description }}</p>{% endif %}
     <p class="byline">{{ page.author | default: site.author }}</p>
   </header>
+  {% if page.image %}
+  <figure class="post-thumbnail">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
+  </figure>
+  {% endif %}
   <div class="post-content">
     {{ content }}
   </div>

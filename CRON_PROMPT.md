@@ -29,7 +29,8 @@
 
 6. 1개를 선정해 `_posts/YYYY-MM-DD-slug.md`로 작성한다.
 7. 글 구조는 반드시 포함한다.
-   - YAML frontmatter: title/date/category/tags/author/description/source_url/permalink
+   - YAML frontmatter: title/date/category/tags/author/description/source_url/permalink/image/image_alt
+   - 16:9 K-드라마형 인물 중심 썸네일 생성 및 `assets/images/thumbnails/YYYY-MM-DD-slug.png` 저장
    - 3줄 요약
    - 한 문장 답변
    - 주제 선정 점수표 또는 선정 이유
@@ -41,24 +42,31 @@
    - 출처와 참고 근거
    - 결론 한 문장
    - Article 또는 BlogPosting JSON-LD
-8. 문체:
+8. 썸네일 생성 규칙:
+   - `k-drama-blog-thumbnail` 스킬 기준으로 16:9 프리미엄 K-드라마형 썸네일을 생성한다.
+   - 반드시 주제와 연관된 한국 인물이 등장해야 한다. 뇌과학·학습 글은 부모·교사·학생·상담사 중 주제에 맞게 고른다.
+   - 이미지 안에는 글자, 로고, 워터마크, 정치 상징, 국기를 넣지 않는다.
+   - 저장 경로는 `assets/images/thumbnails/YYYY-MM-DD-slug.png`이고 front matter `image`, `image_alt`에 반영한다.
+   - 발행 후 이미지 HTTP 200, 본문 `.post-thumbnail`, `og:image`, `twitter:card=summary_large_image`를 확인한다.
+9. 문체:
    - 따뜻하고 쉬운 설명
    - 연구 수치와 한계는 정확히
    - 의학적 진단·치료 단정 금지
    - “아이를 탓하지 않고 이해와 회복의 방법을 제시”하는 톤
-9. 검증:
+10. 검증:
    - frontmatter 문법 확인
    - FAQ 5개 이상 확인
    - JSON-LD 존재 확인
    - source_url 접근 가능 여부 확인
+   - 썸네일 파일 존재, 이미지 HTTP 200, `.post-thumbnail`, `og:image`, `twitter:card` 확인
    - `git diff --check`
    - `git status --short`
-10. 커밋/푸시:
+11. 커밋/푸시:
    - `git add .`
    - `git commit -m "feat: publish neuroscience post YYYY-MM-DD"`
    - `git push origin main`
-11. GitHub Pages URL을 확인한다.
-12. 새 글을 실제로 발행한 경우에만 Resend 뉴스레터 알림을 보낸다. 중복 발행 방지로 검증만 한 날은 이메일을 보내지 않는다.
+12. GitHub Pages URL을 확인한다.
+13. 새 글을 실제로 발행한 경우에만 Resend 뉴스레터 알림을 보낸다. 중복 발행 방지로 검증만 한 날은 이메일을 보내지 않는다.
    - 모바일 표 대응·프리미엄 브리프형 UTF-8 안전 발송 스크립트 사용:
      `python3 /root/hermes-utils/send_pages_publish_email_premium.py --site "Everyday Neuroscience Lab" --post "_posts/YYYY-MM-DD-slug.md" --url "https://ai4tenlab.github.io/everyday-neuroscience-lab/.../"`
    - 수신자 기본값: `ai4tenlab@gmail.com`
