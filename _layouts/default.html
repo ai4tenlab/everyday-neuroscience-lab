@@ -17,8 +17,9 @@
 <body>
   <header class="site-header">
     <a class="brand" href="{{ '/' | relative_url }}">Everyday Neuroscience Lab</a>
-    <nav>
-      <a href="{{ '/' | relative_url }}">블로그</a>
+    <nav aria-label="주요 메뉴">
+      <a href="{{ '/' | relative_url }}">홈</a>
+      <a class="nav-pill" href="{{ '/#latest' | relative_url }}">포스팅</a>
       <a href="{{ '/about/' | relative_url }}">소개</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
     </nav>

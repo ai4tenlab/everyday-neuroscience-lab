@@ -25,6 +25,11 @@ title: "Everyday Neuroscience Lab"
   <div class="post-list">
     {% for post in site.posts limit:12 %}
       <article class="post-card">
+        {% if post.image %}
+        <a class="post-thumb-link" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
+        </a>
+        {% endif %}
         <p class="date">{{ post.date | date: "%Y.%m.%d" }}</p>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.description | default: post.excerpt | strip_html | truncate: 140 }}</p>
