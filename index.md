@@ -12,7 +12,7 @@ title: "Everyday Neuroscience Lab"
     <a class="button ghost" href="#latest">최신 글 보기</a>
   </div>
   <figure class="hero-visual">
-    <img src="{{ '/assets/images/hero/neuroscience-hero.svg' | relative_url }}" alt="뇌과학·학습·회복을 상징하는 일러스트" loading="eager">
+    <img src="{{ '/assets/images/hero/neuroscience-hero.png' | relative_url }}" alt="뇌과학·학습·회복을 상징하는 일러스트" loading="eager">
   </figure>
 </section>
 
