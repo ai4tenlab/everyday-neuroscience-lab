@@ -9,7 +9,7 @@
 2. `/root/everyday-neuroscience-lab`에서 `git pull --rebase origin main`을 실행한다.
 3. 오늘 날짜의 `_posts/YYYY-MM-DD-*.md`가 이미 있으면 중복 발행하지 말고 기존 URL을 검증·보고한다.
 4. 07:30 크론 보고가 있으면 그 후보 5개를 우선 사용하되, 핵심 출처 URL은 다시 접근해 검증한다. 보고가 없거나 불충분하면 Nature, Science, PubMed, JAMA, Lancet, APA, 주요 대학/연구기관에서 최근 연구를 직접 찾는다.
-5. 후보 5개를 반드시 100점 만점으로 점수화한다.
+5. 후보 5개를 반드시 100점 만점으로 점수화한다. 단, 후보군·점수표·선정 기준·선정 과정은 **내부 편집 판단용**으로만 사용하고, 공개 블로그 본문에는 절대 넣지 않는다. 구독자에게는 당일 선정된 콘텐츠만 충실하게 제공한다.
 
 ## 주제 선정 점수표 — 100점 만점
 
@@ -33,7 +33,7 @@
    - 16:9 K-드라마형 인물 중심 썸네일 생성 및 `assets/images/thumbnails/YYYY-MM-DD-slug.png` 저장
    - 3줄 요약
    - 한 문장 답변
-   - 주제 선정 점수표 또는 선정 이유
+   - 공개 본문에는 주제 선정 점수표, 후보 5개, 선정 이유, 내부 편집 기준을 넣지 않는다.
    - 개념 정의
    - 전문용어 쉽게 풀어쓰기: 일반인이 낯설 수 있는 의학·뇌과학·심리학·통계 용어 5~8개를 쉬운 한국어로 설명한다. 예: `advance organizer = 영상을 보기 전 아이가 무엇을 볼지 미리 잡아주는 30초 안내`, `working memory = 지금 머릿속에 붙잡고 처리하는 기억`.
    - 연구 핵심 수치 표
@@ -79,6 +79,6 @@
      `python3 /root/hermes-utils/verify_pages_post_and_email.py --site "Everyday Neuroscience Lab" --repo /root/everyday-neuroscience-lab --post "_posts/YYYY-MM-DD-slug.md" --url "https://ai4tenlab.github.io/everyday-neuroscience-lab/YYYY/MM/DD/slug/"`
    - 수신자 기본값: `ai4tenlab@gmail.com`; 이메일에는 Premium Hero, Executive Summary, 본문 전체, 발행 URL이 포함되어야 한다.
    - 표가 있는 글은 블로그와 메일 모두에서 모바일 폭에 강제 압축하지 않고 가로 스크롤/카드형 요약으로 읽히는지 확인한다.
-14. 발행 URL, 선정 이유, `LIVE_URL_VERIFIED`, `EMAIL_STATUS`, guard 출력 요약을 한국어로 간결히 보고한다.
+14. 텔레그램 최종 보고는 한국어로 간결하게 한다. 반드시 완료 여부와 **확인 가능한 GitHub Pages 발행 URL**을 포함한다. 내부 후보군·점수표·선정 과정은 보고하지 않는다. 형식 예시: `✅ 발행 완료: [제목]\nURL: https://...\nLIVE_URL_VERIFIED=yes · EMAIL_STATUS=...`
 
 중요: 사실을 만들지 말 것. 출처 접근이 실패하면 접근 가능한 신뢰 출처로 대체하고, 실패 사실을 보고한다.
