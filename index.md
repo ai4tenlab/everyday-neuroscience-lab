@@ -1,26 +1,26 @@
 ---
 layout: default
-title: "Everyday Neuroscience Lab"
+title: "뉴로시민 | Everyday Neuroscience Lab"
 ---
 
 <section class="hero">
-  <p class="eyebrow">Brain Science · Learning · Mental Care</p>
-  <h1>뇌과학을 쉽게, 배움과 회복에 쓸 수 있게.</h1>
-  <p>Everyday Neuroscience Lab은 매일 쏟아지는 뇌과학 연구 중 부모·교사·학습자에게 실제로 도움이 되는 지식 하나를 골라 쉽게 해석합니다.</p>
+  <p class="eyebrow">NEUROSCIENCE LITERACY · LEARNING · MIND</p>
+  <h1>뇌를 알면, 일상이 보입니다.</h1>
+  <p><strong>뉴로시민</strong>은 배움·감정·습관·관계가 우리 뇌에서 어떻게 만들어지고 달라지는지, 연구 근거를 바탕으로 시민의 일상 언어로 설명합니다. 진단이나 치료를 대신하지 않으며, 논문이 말한 사실과 아직 알 수 없는 한계를 함께 살핍니다.</p>
   <div class="cta-row">
-    <a class="button" href="{{ '/about/' | relative_url }}">블로그 소개</a>
+    <a class="button" href="{{ '/about/' | relative_url }}">뉴로시민 소개</a>
     <a class="button ghost" href="#latest">최신 글 보기</a>
   </div>
   <figure class="hero-visual">
-    <img src="{{ '/assets/images/hero/neuroscience-hero.png' | relative_url }}" alt="뇌과학·학습·회복을 상징하는 일러스트" loading="eager">
+    <img src="{{ '/assets/images/hero/neuroscience-hero.png' | relative_url }}" alt="배움과 감정, 습관을 뇌과학으로 이해하는 시민을 상징하는 이미지" loading="eager">
   </figure>
 </section>
 
 <section class="principles">
-  <div><strong>검증</strong><span>논문·학술지·PubMed 근거를 확인합니다.</span></div>
-  <div><strong>쉬운 해설</strong><span>전문용어를 생활 언어로 바꿉니다.</span></div>
-  <div><strong>교육 적용</strong><span>부모·교사·학습자가 쓸 기준을 남깁니다.</span></div>
-  <div><strong>공익성</strong><span>마음과 배움의 정보 격차를 줄입니다.</span></div>
+  <div><strong>연구 근거</strong><span>논문·학술지·PubMed 등 검증 가능한 출처를 확인합니다.</span></div>
+  <div><strong>시민의 언어</strong><span>전문용어를 일상의 질문과 연결해 설명합니다.</span></div>
+  <div><strong>배움과 마음</strong><span>부모·교사·학습자가 참고할 수 있는 판단 기준을 남깁니다.</span></div>
+  <div><strong>안전한 이해</strong><span>과장된 결론과 의료적 단정을 피하고 한계를 함께 밝힙니다.</span></div>
 </section>
 
 <section id="latest">

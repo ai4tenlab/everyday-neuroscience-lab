@@ -3,7 +3,7 @@ title: "좋아요는 왜 우울한 마음을 더 오래 붙잡을까?"
 date: 2026-07-09 08:30:00 +0900
 category: "Neuroscience Literacy"
 tags: [뇌과학, 소셜미디어, 우울, 디지털자기조절, 보상학습, 부모교육]
-author: "Everyday Neuroscience Lab"
+author: "뉴로시민 | Everyday Neuroscience Lab"
 description: "JAMA Psychiatry 2026년 연구를 바탕으로 소셜미디어 좋아요가 게시 행동을 강화하는 과정을 보상학습 관점에서 설명하고, 부모·교사·학습자가 쓸 수 있는 디지털 자기조절 기준을 정리합니다."
 source_url: "https://pubmed.ncbi.nlm.nih.gov/42418192/"
 permalink: /2026/07/09/social-media-likes-depression-self-regulation/
@@ -18,20 +18,6 @@ permalink: /2026/07/09/social-media-likes-depression-self-regulation/
 ## 한 문장 답변
 
 소셜미디어의 좋아요는 빠르고 반복적인 사회적 보상으로 작동할 수 있으며, 우울감이 있는 사람에게는 게시 행동을 다시 하게 만드는 강화 신호가 더 강하게 연결될 수 있습니다.
-
-## 오늘의 주제 선정 점수
-
-07:30 리서치 후보 5개를 100점 기준으로 비교했고, 총점 1위인 “소셜미디어 likes와 우울 증상자의 게시 행동 강화”를 오늘의 발행 주제로 선정했습니다.
-
-| 후보 주제 | 새로움 20 | 흥미성 20 | 교육/학습 적합성 20 | 공익성 25 | 검증성 15 | 총점 |
-|---|---:|---:|---:|---:|---:|---:|
-| 소셜미디어 likes가 우울 증상자의 게시 행동을 강화하는가 | 19 | 20 | 19 | 24 | 15 | **97** |
-| 아동·청소년 정신건강 원격진료 접근성 | 18 | 17 | 18 | 25 | 15 | 93 |
-| 자폐·비자폐 집단은 서로의 선호를 어떻게 학습하는가 | 18 | 17 | 20 | 23 | 12 | 90 |
-| 정신건강 서비스 접근성: 치료자 수보다 감당 가능한 비용 | 17 | 16 | 17 | 25 | 15 | 90 |
-| 생성형 AI와 인지신경과학의 변환 모델 | 20 | 16 | 17 | 18 | 13 | 84 |
-
-선정 이유는 실천 가능성입니다. 이 주제는 부모·교사·학습자가 매일 마주하는 스마트폰 사용, 감정 기복, 비교 스트레스, 학습 집중 문제와 직접 연결됩니다.
 
 ## 이 연구는 무엇을 봤나?
 
@@ -189,8 +175,8 @@ Zero-Trust 실시간 검증 완료. 실시간 브라우저 검증 완료.
   "headline": "좋아요는 왜 우울한 마음을 더 오래 붙잡을까?",
   "datePublished": "2026-07-09T08:30:00+09:00",
   "dateModified": "2026-07-09T08:30:00+09:00",
-  "author": {"@type": "Organization", "name": "Everyday Neuroscience Lab"},
-  "publisher": {"@type": "Organization", "name": "Everyday Neuroscience Lab"},
+  "author": {"@type": "Organization", "name": "뉴로시민 | Everyday Neuroscience Lab"},
+  "publisher": {"@type": "Organization", "name": "뉴로시민 | Everyday Neuroscience Lab"},
   "description": "JAMA Psychiatry 2026년 연구를 바탕으로 소셜미디어 좋아요가 게시 행동을 강화하는 과정을 보상학습 관점에서 설명하고, 부모·교사·학습자가 쓸 수 있는 디지털 자기조절 기준을 정리합니다.",
   "mainEntityOfPage": "https://ai4tenlab.github.io/everyday-neuroscience-lab/2026/07/09/social-media-likes-depression-self-regulation/",
   "isBasedOn": "https://doi.org/10.1001/jamapsychiatry.2026.1430"

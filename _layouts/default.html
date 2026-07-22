@@ -3,11 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">{% endif %}
   {% if site.naver_site_verification %}<meta name="naver-site-verification" content="{{ site.naver_site_verification | escape }}">{% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"뉴로시민","alternateName":["Everyday Neuroscience Lab","Neuro Citizen"],"url":"{{ '/' | absolute_url }}","inLanguage":"ko-KR","description":"뇌과학을 시민의 일상 언어로 설명하는 공익 뇌과학 리터러시 아카이브"}
+  </script>
   {% seo %}
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}">
@@ -18,7 +21,7 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="{{ '/' | relative_url }}">Everyday Neuroscience Lab</a>
+    <a class="brand" href="{{ '/' | relative_url }}">뉴로시민 <small>Everyday Neuroscience Lab</small></a>
     <nav aria-label="주요 메뉴">
       <a href="{{ '/' | relative_url }}">홈</a>
       <a class="nav-pill" href="{{ '/#latest' | relative_url }}">포스팅</a>
@@ -30,7 +33,7 @@
     {{ content }}
   </main>
   <footer class="site-footer">
-    <p>© {{ site.time | date: '%Y' }} Everyday Neuroscience Lab · 뇌과학을 쉽게, 배움과 회복에 쓸 수 있게.</p>
+    <p>© {{ site.time | date: '%Y' }} 뉴로시민 · 뇌과학을 시민의 일상 언어로.</p>
   </footer>
 </body>
 </html>

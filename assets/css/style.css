@@ -54,8 +54,14 @@ img, video, iframe { max-width: 100%; height: auto; }
   letter-spacing: -.035em;
   text-decoration: none;
 }
-nav { display: flex; align-items: center; gap: clamp(14px, 2.6vw, 30px); overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
-nav::-webkit-scrollbar { display: none; }
+.brand small {
+  color: var(--muted);
+  font-size: .68em;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  }
+  nav { display: flex; align-items: center; gap: clamp(14px, 2.6vw, 30px); overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
+  nav::-webkit-scrollbar { display: none; }
 nav a { color: rgba(29, 29, 31, .78); font-size: .82rem; font-weight: 600; text-decoration: none; }
 nav a:hover { color: var(--ink); text-decoration: none; }
 nav a.nav-pill { padding: 6px 12px; border: 1px solid rgba(0,113,227,.28); border-radius: 999px; color: var(--brand); background: rgba(255,255,255,.62); }

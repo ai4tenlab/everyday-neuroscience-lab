@@ -3,7 +3,7 @@ title: "게임을 못 끊는 아이, 의지보다 기억 회로를 봐야 할까
 date: 2026-07-08 08:20:00 +0900
 category: "Neuroscience Literacy"
 tags: [뇌과학, 게임중독, 인터넷게임장애, 기억회로, 자기조절, 부모교육]
-author: "Everyday Neuroscience Lab"
+author: "뉴로시민 | Everyday Neuroscience Lab"
 description: "Nature Portfolio Communications Medicine 연구를 바탕으로 게임 갈망을 의지 부족이 아닌 기억·보상 회로 관점에서 이해하고, 부모가 실천할 수 있는 환경 설계법을 정리합니다."
 source_url: "https://www.nature.com/articles/s43856-026-01705-4"
 permalink: /2026/07/08/gaming-craving-memory-circuit/
@@ -18,20 +18,6 @@ permalink: /2026/07/08/gaming-craving-memory-circuit/
 ## 한 문장 답변
 
 게임 사용 문제는 아이의 의지만 다그칠 일이 아니라, 어떤 단서가 갈망을 부르고 어떤 환경이 반복 행동을 키우는지 살피며 기억·보상 회로를 다시 설계해야 하는 문제입니다.
-
-## 오늘의 주제 선정 점수
-
-오늘 교육·뇌과학 후보 5개 중 이 주제를 1순위로 선정했습니다.
-
-| 후보 주제 | 새로움 20 | 흥미성 20 | 교육/학습 적합성 20 | 공익성 25 | 검증성 15 | 총점 |
-|---|---:|---:|---:|---:|---:|---:|
-| 게임 중독과 기억 회로 | 18 | 20 | 20 | 24 | 14 | **96** |
-| LLM 정신건강 평가 | 20 | 19 | 17 | 22 | 14 | 92 |
-| 우울증 개인맞춤 치료 | 18 | 17 | 19 | 23 | 14 | 91 |
-| CBT 메타분석 | 14 | 17 | 20 | 24 | 15 | 90 |
-| 언어 발달의 생물문화 관점 | 16 | 16 | 19 | 21 | 12 | 84 |
-
-선정 이유는 명확합니다. 게임 사용 문제는 부모와 교사가 매일 부딪히는 현실 문제이고, “그만해”보다 더 나은 설명과 실천 전략을 제공할 수 있습니다.
 
 ## 이 연구는 무엇을 봤나?
 
@@ -182,8 +168,8 @@ A. 아닙니다. 연구 절차는 임상 연구 맥락에서 수행된 것입니
   "headline": "게임을 못 끊는 아이, 의지보다 기억 회로를 봐야 할까?",
   "datePublished": "2026-07-08T08:20:00+09:00",
   "dateModified": "2026-07-08T08:20:00+09:00",
-  "author": {"@type": "Organization", "name": "Everyday Neuroscience Lab"},
-  "publisher": {"@type": "Organization", "name": "Everyday Neuroscience Lab"},
+  "author": {"@type": "Organization", "name": "뉴로시민 | Everyday Neuroscience Lab"},
+  "publisher": {"@type": "Organization", "name": "뉴로시민 | Everyday Neuroscience Lab"},
   "description": "Nature Portfolio Communications Medicine 연구를 바탕으로 게임 갈망을 의지 부족이 아닌 기억·보상 회로 관점에서 이해하고, 부모가 실천할 수 있는 환경 설계법을 정리합니다.",
   "mainEntityOfPage": "https://ai4tenlab.github.io/everyday-neuroscience-lab/2026/07/08/gaming-craving-memory-circuit/"
 }

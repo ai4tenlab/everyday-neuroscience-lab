@@ -3,7 +3,7 @@ title: "AI 챗봇을 마음 상담 친구처럼 써도 괜찮을까?"
 date: 2026-07-15 08:30:00 +0900
 category: "Mental Health Literacy"
 tags: [AI리터러시, 정신건강, 청소년, 부모교육, 디지털안전, 멘탈테크]
-author: "Everyday Neuroscience Lab"
+author: "뉴로시민 | Everyday Neuroscience Lab"
 description: "2026년 Lancet Psychiatry 논문을 바탕으로 AI 챗봇을 친구나 치료자처럼 사용할 때 필요한 마음 안전 기준을 부모·교사·학습자 관점에서 정리합니다."
 source_url: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41796598&retmode=xml"
 permalink: /2026/07/15/ai-companion-mental-safety-guide/
@@ -20,18 +20,6 @@ image_alt: "AI 챗봇과 대화하는 청소년을 부모나 상담사가 조용
 ## 한 문장 답변
 
 AI 챗봇은 생각을 정리하고 질문을 넓히는 데 도움을 줄 수 있지만, 마음의 위기나 현실 판단이 흔들리는 상황에서는 친구나 치료자처럼 의존해서는 안 되며 반드시 사람과 전문 지원망을 함께 연결해야 합니다.
-
-## 오늘의 주제 선정 점수표
-
-07:30 리서치 크론은 뇌과학·정신건강·학습과학 후보 5개를 비교했고, 총점 1위는 “AI 동반자 시대의 마음 안전 가이드”였습니다. 이 주제는 자극적으로 다루면 오해를 부를 수 있지만, 검증된 초록과 DOI가 있고 부모·교사·청소년에게 실제 안전 기준을 줄 수 있어 오늘의 발행 주제로 선정했습니다.
-
-| 후보 주제 | 새로움 20 | 흥미성 20 | 교육/학습 적합성 20 | 공익성 25 | 검증성 15 | 총점 | 발행 판단 |
-|---|---:|---:|---:|---:|---:|---:|---|
-| AI 챗봇은 친구도 치료자도 아니다: AI 동반자 시대의 마음 안전 가이드 | 20 | 19 | 18 | 25 | 13 | **95** | **오늘 발행** |
-| 카페인은 정말 잠을 줄일까? “잠들기 8시간 전”의 뇌과학 | 17 | 19 | 19 | 24 | 15 | **94** | 생활 적용성은 높지만 오늘 1위 아님 |
-| 교실에서 쓰는 디지털 뇌과학 도구, 무엇을 먼저 점검해야 하나 | 18 | 16 | 20 | 23 | 14 | **91** | 교실 적용성 높음 |
-| 불안은 유전인가, 환경인가: 69만 명 GWAS가 말하는 불안의 연속성 | 19 | 17 | 16 | 22 | 15 | **89** | 유전 결정론 오해 주의 필요 |
-| 정신증 프롬프트에 AI 챗봇은 어떻게 답했나: JAMA Psychiatry의 경고 | 19 | 18 | 15 | 23 | 11 | **86** | 원문 접근 제한으로 검증성 감점 |
 
 ## AI 동반자와 마음 안전이란 무엇인가?
 
@@ -186,11 +174,11 @@ AI 챗봇은 마음을 대신 책임지는 친구가 아니라, 사람과 현실
   "dateModified": "2026-07-15T08:30:00+09:00",
   "author": {
     "@type": "Organization",
-    "name": "Everyday Neuroscience Lab"
+    "name": "뉴로시민 | Everyday Neuroscience Lab"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Everyday Neuroscience Lab"
+    "name": "뉴로시민 | Everyday Neuroscience Lab"
   },
   "image": "https://ai4tenlab.github.io/everyday-neuroscience-lab/assets/images/thumbnails/2026-07-15-ai-companion-mental-safety-guide.png",
   "mainEntityOfPage": "https://ai4tenlab.github.io/everyday-neuroscience-lab/2026/07/15/ai-companion-mental-safety-guide/",

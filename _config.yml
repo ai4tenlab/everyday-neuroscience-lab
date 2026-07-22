@@ -1,11 +1,11 @@
-title: "Everyday Neuroscience Lab"
-description: "부모·교사·학습자를 위한 공익형 뇌과학 지식 블로그"
+title: "뉴로시민 | Everyday Neuroscience Lab"
+description: "뇌과학을 시민의 일상 언어로 설명하는 공익 뇌과학 리터러시 아카이브"
 url: "https://ai4tenlab.github.io"
 baseurl: "/everyday-neuroscience-lab"
 google_site_verification: "6IbvE6STizsI0a21ulmBwJIxUvzBW-VDXOFI_i4fETs"
 lang: ko-KR
 timezone: Asia/Seoul
-author: "Everyday Neuroscience Lab"
+author: "뉴로시민 편집부"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 kramdown:
@@ -20,5 +20,5 @@ defaults:
       type: "posts"
     values:
       layout: post
-      author: "Everyday Neuroscience Lab"
+      author: "뉴로시민 편집부"
       category: "Neuroscience Literacy"

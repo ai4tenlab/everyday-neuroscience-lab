@@ -3,7 +3,7 @@ title: "스마트폰을 빼앗지 않고도 가능한 디지털 균형 교육은
 date: 2026-07-12 08:30:00 +0900
 category: "Neuroscience Literacy"
 tags: [뇌과학, 학습과학, 청소년정신건강, 디지털습관, 사회정서학습, 스마트폰사용]
-author: "Everyday Neuroscience Lab"
+author: "뉴로시민 | Everyday Neuroscience Lab"
 description: "2026년 Child and Adolescent Psychiatry and Mental Health 연구를 바탕으로 교실에서 실행 가능한 SEL 기반 디지털 균형 교육과 청소년 마음건강 적용법을 정리합니다."
 source_url: "https://link.springer.com/article/10.1186/s13034-026-01131-3"
 permalink: /2026/07/12/digital-media-balance-sel-school-program/
@@ -20,20 +20,6 @@ image_alt: "교사와 중학생이 교실에서 스마트폰을 책상 한쪽에
 ## 한 문장 답변
 
 청소년 디지털 균형 교육은 스마트폰을 무조건 빼앗는 통제가 아니라, 사회정서학습(SEL)을 통해 **집중할 환경을 만들고 감정을 다루며 사용 전략을 배우게 하는 학교·가정 공동 교육**입니다.
-
-## 오늘의 주제 선정 점수
-
-07:30 리서치 후보 5개를 100점 기준으로 비교했고, 총점 1위인 “SEL 기반 디지털 균형 학교 프로그램”을 오늘의 발행 주제로 선정했습니다.
-
-| 후보 주제 | 새로움 20 | 흥미성 20 | 교육/학습 적합성 20 | 공익성 25 | 검증성 15 | 총점 |
-|---|---:|---:|---:|---:|---:|---:|
-| SEL 기반 디지털 균형 학교 프로그램 | 18 | 19 | 20 | 24 | 15 | **96** |
-| 우울 성향과 소셜미디어 ‘좋아요’ 보상 민감성 | 19 | 20 | 17 | 23 | 14 | 93 |
-| 청소년 ADHD 유사 증상과 문제적 스마트폰 사용의 5파장 추적 | 18 | 18 | 18 | 23 | 15 | 92 |
-| 연습 후 더 잘 배우는 이유: 5시간 오프라인 통합과 운동학습 | 17 | 17 | 20 | 21 | 14 | 89 |
-| 자폐·비자폐 청소년의 선호 학습과 평균적 이해의 한계 | 18 | 16 | 18 | 22 | 13 | 87 |
-
-선정 이유는 명확합니다. 이 연구는 “스마트폰이 나쁘다”는 단순한 경고가 아니라, 교사가 교실에서 실행할 수 있는 **구체적 교육 프로그램**을 검증했습니다. 부모와 교사에게 필요한 것은 공포가 아니라, 아이가 집중과 회복을 다시 배울 수 있는 안전한 실천 기준입니다.
 
 ## 디지털 균형 교육이란 무엇인가?
 
@@ -160,11 +146,11 @@ A. 실패를 의지 부족으로만 해석하지 말고 조건을 더 작게 바
   "dateModified": "2026-07-12T08:30:00+09:00",
   "author": {
     "@type": "Organization",
-    "name": "Everyday Neuroscience Lab"
+    "name": "뉴로시민 | Everyday Neuroscience Lab"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Everyday Neuroscience Lab"
+    "name": "뉴로시민 | Everyday Neuroscience Lab"
   },
   "image": "https://ai4tenlab.github.io/everyday-neuroscience-lab/assets/images/thumbnails/2026-07-12-digital-media-balance-sel-school-program.png",
   "mainEntityOfPage": "https://ai4tenlab.github.io/everyday-neuroscience-lab/2026/07/12/digital-media-balance-sel-school-program/",
