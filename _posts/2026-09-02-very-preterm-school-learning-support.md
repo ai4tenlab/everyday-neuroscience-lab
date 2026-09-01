@@ -1,6 +1,6 @@
 ---
 title: "아주 일찍 태어난 아이의 학습을 학교는 언제부터 살펴야 할까?"
-date: 2026-09-02 08:36:00 +0900
+date: 2026-09-02 08:30:00 +0900
 category: "Neuroscience Literacy"
 tags: [뇌과학, 조산, 학습지원, 읽기, 수리력, 학교상담, 부모교육, 아동발달]
 author: "뉴로시민 | Everyday Neuroscience Lab"
@@ -124,8 +124,8 @@ A. 읽기·수리 어려움이 여러 달 지속되거나, 수업 참여·정서
   "@type": "BlogPosting",
   "headline": "아주 일찍 태어난 아이의 학습을 학교는 언제부터 살펴야 할까?",
   "description": "2026년 JAMA Network Open의 호주 대규모 코호트 연구를 바탕으로 재태연령과 초등·중등 학업 성취의 관계를 부모와 교사가 어떻게 조심스럽게 읽어야 하는지 설명합니다.",
-  "datePublished": "2026-09-02T08:36:00+09:00",
-  "dateModified": "2026-09-02T08:36:00+09:00",
+  "datePublished": "2026-09-02T08:30:00+09:00",
+  "dateModified": "2026-09-02T08:30:00+09:00",
   "author": {
     "@type": "Organization",
     "name": "뉴로시민 | Everyday Neuroscience Lab"
