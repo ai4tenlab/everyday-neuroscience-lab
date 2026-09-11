@@ -48,7 +48,10 @@
    - `k-drama-blog-thumbnail` 스킬 기준으로 16:9 프리미엄 K-드라마형 썸네일을 생성한다.
    - 반드시 주제와 연관된 한국 인물이 등장해야 한다. 뇌과학·학습 글은 부모·교사·학생·상담사 중 주제에 맞게 고른다.
    - 이미지 안에는 글자, 로고, 워터마크, 정치 상징, 국기를 넣지 않는다.
-   - 저장 경로는 `assets/images/thumbnails/YYYY-MM-DD-slug.png`이고 front matter `image`, `image_alt`에 반영한다.
+   - 이미지 생성은 Hermes `image_generate` 도구를 사용한다. 이 노드의 승인된 OpenAI Codex GPT Image 경로를 우선 사용하며, 무승인 외부 이미지 제공자·임의 URL·자리표시 이미지로 대체하지 않는다.
+   - 생성 도구가 반환한 **로컬 이미지 경로**를 `assets/images/thumbnails/YYYY-MM-DD-slug.png`로 복사하고 front matter `image`, `image_alt`에 반영한다. 도구 호출만 하고 파일을 복사하지 않은 상태는 완료가 아니다.
+   - 복사 직후 `python3 scripts/validate_thumbnail.py assets/images/thumbnails/YYYY-MM-DD-slug.png`를 실행한다. `THUMBNAIL_VALIDATION=pass`가 아니면 발행·커밋하지 말고 이미지 생성 실패로 보고한다.
+   - 시각 검토로 사람·주제 연관성, 텍스트·로고·워터마크·정치 상징·왜곡된 손의 부재, 16:9 카드 크롭 안전성을 확인한다. 검토에 실패하면 한 번만 재생성하고, 다시 실패하면 발행을 보류한다.
    - 발행 후 이미지 HTTP 200, 본문 `.post-thumbnail`, `og:image`, `twitter:card=summary_large_image`를 확인한다.
 9. 문체 — 발행 전 한국어 편집 패스:
    - 논문 초록이나 영문 건강 콘텐츠를 옮긴 글이 아니라, 부모·교사·시민에게 건네는 따뜻하고 정확한 한국어 과학 해설로 쓴다.
