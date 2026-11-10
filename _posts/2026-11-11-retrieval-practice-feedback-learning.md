@@ -8,7 +8,7 @@ author: "뉴로시민 편집부 · Viki"
 description: "교과서를 읽을 때는 알겠는데 덮으면 설명이 막힌다면, 복습 순서를 바꿔 보세요. 2026년 10월 교실 연구 메타분석과 대학생 실험을 읽고, 기억에서 꺼낸 뒤 답을 확인하는 인출 연습의 효과와 한계를 정리했습니다. 부모·교사·학습자가 쓸 질문 예시도 담았습니다."
 source_url: "https://link.springer.com/article/10.1007/s10648-026-10225-5"
 permalink: /2026/11/11/retrieval-practice-feedback-learning/
-image: "/assets/images/thumbnails/2026-11-11-retrieval-practice-feedback-learning-v1.png"
+image: "/assets/images/thumbnails/2026-11-11-retrieval-practice-feedback-learning-v2.png"
 image_alt: "따뜻한 조명의 집에서 닫힌 파란 책을 앞에 두고 배운 내용을 설명하는 아이와 차분히 듣는 한국인 부모"
 ---
 
@@ -129,10 +129,12 @@ Ruitenburg 연구진은 초·중등 일반교육에 다니는 6~18세 학생을 
 
 ## Sources
 
-[1] https://link.springer.com/article/10.1007/s10648-026-10225-5 — Ruitenburg et al. 2026 classroom meta-analysis
-[2] https://pubmed.ncbi.nlm.nih.gov/42803776 — Ramgopal et al. 2026 PubMed abstract
-[3] https://kar.kent.ac.uk/116768/2/Publisher%20PDF.pdf — Ramgopal et al. 2026 publisher PDF at University of Kent
-[4] https://www.cmu.edu/teaching/resources/instructionalstrategies/activelearningstrategies/retrievalpractice — Carnegie Mellon Eberly Center retrieval practice guide
+[1] <https://link.springer.com/article/10.1007/s10648-026-10225-5> — Ruitenburg et al. 2026 classroom meta-analysis
+[2] <https://pubmed.ncbi.nlm.nih.gov/42803776> — Ramgopal et al. 2026 PubMed abstract
+[3] <https://kar.kent.ac.uk/116768/2/Publisher%20PDF.pdf> — Ramgopal et al. 2026 publisher PDF at University of Kent
+[4] <https://www.cmu.edu/teaching/resources/instructionalstrategies/activelearningstrategies/retrievalpractice> — Carnegie Mellon Eberly Center retrieval practice guide
+
+## 이 글과 함께 읽어보세요
 
 복습 전후의 환경도 함께 살피고 싶다면 [공부한 뒤 바로 다음 과제를 밀어 넣어도 괜찮을까?]({{ '/2026/08/17/wakeful-rest-learning-stabilization/' | relative_url }})와 [잠든 뒤 기억은 그냥 저장될까?]({{ '/2026/07/31/sleep-memory-linking-review/' | relative_url }})를 이어 읽어 보세요.
 
@@ -146,7 +148,7 @@ Ruitenburg 연구진은 초·중등 일반교육에 다니는 6~18세 학생을 
   "dateModified": "2026-11-11T04:16:00+09:00",
   "author": {"@type": "Organization", "name": "뉴로시민 편집부 · Viki"},
   "publisher": {"@type": "Organization", "name": "뉴로시민 | Everyday Neuroscience Lab"},
-  "image": "https://ai4tenlab.github.io/everyday-neuroscience-lab/assets/images/thumbnails/2026-11-11-retrieval-practice-feedback-learning-v1.png",
+  "image": "https://ai4tenlab.github.io/everyday-neuroscience-lab/assets/images/thumbnails/2026-11-11-retrieval-practice-feedback-learning-v2.png",
   "mainEntityOfPage": "https://ai4tenlab.github.io/everyday-neuroscience-lab/2026/11/11/retrieval-practice-feedback-learning/",
   "url": "https://ai4tenlab.github.io/everyday-neuroscience-lab/2026/11/11/retrieval-practice-feedback-learning/",
   "inLanguage": "ko-KR",
