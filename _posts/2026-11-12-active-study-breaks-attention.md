@@ -1,7 +1,7 @@
 ---
 title: "공부하다 집중이 흐려질 때, 잠깐 움직여도 괜찮을까요?"
 date: 2026-11-12 19:27:00 +0900
-last_modified_at: 2026-11-12 19:27:00 +0900
+last_modified_at: 2026-11-12 19:34:00 +0900
 category: "Neuroscience Literacy"
 tags: [학습과학, 주의력, 신체활동, 공부습관, 부모교육]
 author: "뉴로시민 편집부 · Viki"
@@ -105,9 +105,11 @@ WHO는 모든 연령에서 오래 앉아 있는 시간을 줄이고, 가능한 �
 
 ## Sources
 
-[1] https://pmc.ncbi.nlm.nih.gov/articles/PMC13543494
-[2] https://www.who.int/news-room/fact-sheets/detail/physical-activity
-[3] https://pubmed.ncbi.nlm.nih.gov/42687774
+[1] <https://pmc.ncbi.nlm.nih.gov/articles/PMC13543494>
+
+[2] <https://www.who.int/news-room/fact-sheets/detail/physical-activity>
+
+[3] <https://pubmed.ncbi.nlm.nih.gov/42687774>
 
 <script type="application/ld+json">
 {
@@ -116,7 +118,7 @@ WHO는 모든 연령에서 오래 앉아 있는 시간을 줄이고, 가능한 �
   "headline": "공부하다 집중이 흐려질 때, 잠깐 움직여도 괜찮을까요?",
   "description": "대학 수업 활동 휴식 연구의 결과와 한계, 가정과 교실에서 쉬는 시간을 설계하는 방법을 설명합니다.",
   "datePublished": "2026-11-12T19:27:00+09:00",
-  "dateModified": "2026-11-12T19:27:00+09:00",
+  "dateModified": "2026-11-12T19:34:00+09:00",
   "author": {"@type": "Organization", "name": "뉴로시민 편집부 · Viki"},
   "publisher": {"@type": "Organization", "name": "뉴로시민 | Everyday Neuroscience Lab"},
   "image": "https://ai4tenlab.github.io/everyday-neuroscience-lab/assets/images/thumbnails/2026-11-12-active-study-breaks-attention-v1.png",
