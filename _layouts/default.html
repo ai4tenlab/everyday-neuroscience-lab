@@ -11,7 +11,12 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"WebSite","name":"뉴로시민","alternateName":["Everyday Neuroscience Lab","Neuro Citizen"],"url":"{{ '/' | absolute_url }}","inLanguage":"ko-KR","description":"뇌과학을 시민의 일상 언어로 설명하는 공익 뇌과학 리터러시 아카이브"}
   </script>
+  {% if page.neuro_custom_schema %}
+  {% capture neuro_seo %}{% seo title=false %}{% endcapture %}
+  {{ neuro_seo | split: '<script type="application/ld+json">' | first }}
+  {% else %}
   {% seo %}
+  {% endif %}
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}">
   <meta property="og:image:alt" content="{{ page.image_alt | default: page.title }}">
